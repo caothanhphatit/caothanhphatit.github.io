@@ -24,7 +24,7 @@
 
   margin: 0;
 
-  background: #000;
+  background: #ffe6e6;
 
 }
 
@@ -37,6 +37,23 @@ canvas {
   height: 100%;
 
 }
+div_cv{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+div_cv{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+}
+
+H1{
+text-align:center;	
+  width: 100%;
+  padding: 10px;	
+}
 
   </style>
 
@@ -45,7 +62,11 @@ canvas {
 
  <BODY>
 
-  <canvas id="pinkboard"></canvas>
+	<div id ="div_title" > <H1>Love You Ngọc Trân !</H1></div>
+	<div id ="div_cv">   <canvas id="pinkboard"></canvas>
+</div>
+  
+ 
 
   <script>
 
@@ -420,7 +441,7 @@ var ParticlePool = (function() {
 
     // create the fill
 
-    context.fillStyle = '#ea80b0';
+    context.fillStyle = '#4f4ff7';
 
     context.fill();
 
